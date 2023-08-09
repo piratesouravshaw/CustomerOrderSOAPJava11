@@ -13,3 +13,9 @@ future. with latest spring boot it need not be required
 cxf-spring-boot-starter-jaxws => This is the most important dependency here.
 
 
+
+Here the url we can access this will be -> http://localhost:8080/services/customerordersservice?wsdl
+if we want to remove /services part from url we can add this entry inside application.properties
+cxf.path=/
+
+
